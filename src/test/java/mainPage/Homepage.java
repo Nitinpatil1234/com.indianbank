@@ -22,6 +22,7 @@ public class Homepage {
 		driver.findElement(By.xpath("//button[text()='Add 1 Item to Cart']")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath(".masthead-site-nav-module__linkItemContainer-310>svg>title#cartIcon")).click();
+		System.out.println("Deepak Yadav");
 		
 	}
 }
